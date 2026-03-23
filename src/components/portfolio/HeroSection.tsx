@@ -94,9 +94,9 @@ export default function HeroSection() {
           className="flex items-center justify-center gap-5 mb-16"
         >
           {[
-            { icon: <Linkedin size={18} />, href: "https://linkedin.com", label: "LinkedIn" },
-            { icon: <Github size={18} />, href: "https://github.com", label: "GitHub" },
-            { icon: <Mail size={18} />, href: "mailto:mostafa@example.com", label: "Email" },
+            { icon: <Linkedin size={18} />, href: "https://www.linkedin.com/in/mostafa-abdalmajeed-773627349/", label: "LinkedIn" },
+            { icon: <Github size={18} />, href: "https://github.com/mostafaabdalmajeed70", label: "GitHub" },
+            { icon: <Mail size={18} />, href: "mailto:mostafaabdalmajeed70@gmail.com", label: "Email" },
           ].map((social) => (
             <a
               key={social.label}
